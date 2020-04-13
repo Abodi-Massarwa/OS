@@ -1,0 +1,8 @@
+gcc -fPIC -shared hello_ariel.c -o libHello.so
+gcc main2_3.c -o hello23
+gcc main2_2.c -o hello22
+gcc grand_child.c -o grand_child
+gcc main2_1.c -o hello21
+gcc  main1_3.c -fPIC -ldl -o hello3
+gcc  main1_1.c -L. -l Hello -o hello2
+gcc hello_ariel.c main1_1.c -o hello1

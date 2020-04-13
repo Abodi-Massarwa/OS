@@ -1,0 +1,5 @@
+main2_2.c: In function ‘child’:
+main2_2.c:26:13: warning: implicit declaration of function ‘clone’; did you mean ‘close’? [-Wimplicit-function-declaration]
+ int result= clone(grand,child_stack+10000,0,0);
+             ^~~~~
+             close
